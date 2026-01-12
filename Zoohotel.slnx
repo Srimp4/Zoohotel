@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Zoohotel/Zoohotel.vcxproj" Id="4e2433ad-0ab4-4457-9c71-b989872a0923" />
+</Solution>

@@ -1,0 +1,25 @@
+#include <iostream>
+
+// things we have to do:
+// - administrator
+// - employees
+// - clients
+// - pets
+// - rooms
+// - spaces
+// - contract
+// procces' for the "beta" of the app
+// - register contracts
+// - show how full the hotel is
+// - singning up/taking the pet
+// * - see what employees do (why)
+// functional reqiurements
+// - the possibility of difirent rooms at diffirent addreses
+// * - the ability for the clients to register themselves
+// * - monitoring the ammount of pet food and other expenses in the app
+//
+
+int main()
+{
+
+}
