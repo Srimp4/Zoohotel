@@ -1,23 +1,49 @@
-#include <iostream>
+/// проект Зоогостинница
+/// Работаем в консоле но проектируем программу 
+/// в стиле ООП
+///     Проект на несколько недель с отчётами в процессе 
+///     производства
+/// 
+/// В предыдущих сериях
+///     Перечень сущностей в зоогостинке
+///         - Администратор
+///         - Сотрудники(должности)
+///         - Клиенты
+///         - Питомцы(породы, предпочтения,...)
+///         - Комнаты
+///         - Места
+///         - Договор
+/// Процессы для первичной работы
+///     - Зарегестрировать договор
+///     - показ "заселённости" гостинницы
+///     - внесение/забор питомца
+///     * - отслеживание того какой сотрудник 
+///         какое действие делал
+/// Функциональные требования
+///     - возможность существования комнат 
+///       на нескольких адресах
+///     * - возможность самостаятельной регистрации 
+///         клиентов
+///     * - отслеживание наличия корма и прочих хоз 
+///         расходов в приложении
 
-// things we have to do:
-// - administrator
-// - employees
-// - clients
-// - pets
-// - rooms
-// - spaces
-// - contract
-// procces' for the "beta" of the app
-// - register contracts
-// - show how full the hotel is
-// - singning up/taking the pet
-// * - see what employees do (why)
-// functional reqiurements
-// - the possibility of difirent rooms at diffirent addreses
-// * - the ability for the clients to register themselves
-// * - monitoring the ammount of pet food and other expenses in the app
-//
+#include <iostream>
+#include <string>
+#include "./Utilities.hpp"
+
+
+
+class Role
+{
+
+};
+
+
+
+class Zoohotel
+{
+
+};
 
 int main()
 {

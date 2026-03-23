@@ -1,0 +1,28 @@
+while developing you have to collect data in collections of the same type
+and, diffirent conditions of problems will reqiure diffirent methods for storing data
+you have to do that because diffirent types of data present diffirent methods of interacting with the information they contain
+
+types of collections:								speed:
+	- linear arrays:								insert  delete  read N  search
+		* static		   array					-		-		1		n
+		* dynamic		   vector					n		n		1		n
+	- lists:
+		* one directional  forward_list				1		1		n		n
+		* two directional  list						1		1		n		n
+		* looping									1		1		n		n
+	- trees:
+		* binary           set						log(n)	log(n)	log(n)	log(n)
+		* red-black //???							
+		* tree-segments    **deque					1		1		1		n
+	- graphs										
+	- tuple				   tuple					-		-		
+
+	** derivatives
+	- ques				   queue					
+	- stackes			   stack					
+	- hash-tables									
+	- dictionaries		   map						
+
+we need to underestand the concept of work of the data structures listed above to:
+	- use them effectively
+	- realize if your or standart can't work in you situation

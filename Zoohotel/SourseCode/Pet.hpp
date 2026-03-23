@@ -5,9 +5,9 @@
 
 
 #include <string>
+#include "./Utilities.hpp"
 
-int const arrsize = 3;
-namespace Zoohotel
+namespace ZooHotel
 {
 	class Owner;
 	enum Size
@@ -18,6 +18,13 @@ namespace Zoohotel
 		big,
 		giant
 	};
+
+	class Ticket;
+
+	class Room;
+
+	class Bench;
+
 	class Pet
 	{
 	public:
@@ -27,17 +34,26 @@ namespace Zoohotel
 		Size size;
 		std::string species;
 		std::string bride;//???
-		int BirthDate[arrsize];
+		//DateTime:: birthday_;
 		int uid;
 		Owner* owner_;
 	};
-	class employee
+
+	class Role;
+
+	class Employee
 	{
 	public:
 	private:
 		std::string name;
 
 	};
+
+	class Zoohotel
+	{
+		std::vector<Employee> staff;
+	};
+
 }
 
 

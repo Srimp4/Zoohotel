@@ -127,10 +127,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="SourseCode\Bench.cpp" />
+    <ClCompile Include="SourseCode\Room.cpp" />
     <ClCompile Include="SourseCode\Source.cpp" />
+    <ClCompile Include="SourseCode\Utilites.cpp" />
+    <ClCompile Include="SourseCode\ZooHotel.cpp" />
+    <ClCompile Include="stuff\ListDemo.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="SourseCode\Bench.hpp" />
     <ClInclude Include="SourseCode\Pet.hpp" />
+    <ClInclude Include="SourseCode\Room.hpp" />
+    <ClInclude Include="SourseCode\Utilities.hpp" />
+    <ClInclude Include="stuff\List.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Info\data_collections.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
