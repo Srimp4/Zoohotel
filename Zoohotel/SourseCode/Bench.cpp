@@ -15,16 +15,15 @@ namespace ZooHotel
 		holder_(nullptr)
 	{}
 
+	//setters
 	void Bench::SetID(int ID)
 	{
 		ID_ = ID;
 	}
-
 	void Bench::Settype(Types type)
 	{
 		benchtype = type;
 	}
-
 	void Bench::Setholder(Pet* holder)
 	{
 		if (holder && Issuitable(holder))
@@ -37,26 +36,25 @@ namespace ZooHotel
 		}
 	}
 
+	//getters
 	int Bench::GetID() const
 	{
 		return ID_;
 	}
-
 	Types Bench::Gettype() const
 	{
 		return benchtype;
 	}
-
 	const Pet* Bench::Getpet() const
 	{
 		return holder_;
 	}
 
+	//checks
 	bool Bench::Isempty() const
 	{
 		return !holder_;
 	}
-
 	bool Bench::Issuitable(const Pet* pet) const
 	{
 		return false;

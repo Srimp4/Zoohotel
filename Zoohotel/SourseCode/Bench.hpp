@@ -25,14 +25,17 @@ namespace ZooHotel
 			holder_(nullptr)
 		{}*/
 
+		//setters
 		void SetID(int ID);
 		void Settype(Types type);
 		void Setholder(Pet* holder);
 
+		//getters
 		int GetID()const;
 		Types Gettype()const;
 		const Pet* Getpet()const;
 
+		//checks
 		bool Isempty()const;
 		bool Issuitable(const Pet* pet)const;
 
