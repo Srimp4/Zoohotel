@@ -128,6 +128,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="SourseCode\Bench.cpp" />
+    <ClCompile Include="SourseCode\Contract.cpp" />
+    <ClCompile Include="SourseCode\Employee.cpp" />
     <ClCompile Include="SourseCode\Owner.cpp" />
     <ClCompile Include="SourseCode\Pet.cpp" />
     <ClCompile Include="SourseCode\Room.cpp" />
@@ -138,6 +140,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SourseCode\Bench.hpp" />
+    <ClInclude Include="SourseCode\Contract.hpp" />
+    <ClInclude Include="SourseCode\Employee.hpp" />
     <ClInclude Include="SourseCode\Owner.hpp" />
     <ClInclude Include="SourseCode\Pet.hpp" />
     <ClInclude Include="SourseCode\Room.hpp" />

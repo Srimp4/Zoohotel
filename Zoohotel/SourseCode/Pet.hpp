@@ -6,6 +6,7 @@
 
 #include <string>
 #include <memory>
+#include "Employee.hpp"
 #include "./Utilities.hpp"
 #include "Owner.hpp"
 
